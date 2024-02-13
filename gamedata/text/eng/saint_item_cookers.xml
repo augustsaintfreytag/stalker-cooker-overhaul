@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_saint_mess_kit">
+		<text>Mess Kit</text>
+	</string>
+	<string id="st_saint_mess_kit_descr">
+		<text>A widely used army mess kit, consisting of a mess tin and basic metal cutlery. Can be used as a pan or small pot over an existing heat source (like a campfire) for basic dishes. It is highly compact and features a recognisable convex-concave bottom profile, concave on one side, supplied with a wire handle-loop for hanging and carrying, and is reasonably easy to clean and reuse. Sufficient to cook low quality meats that don't require high temperatures. Due to its manufacturing quality, it has limited durability.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_green] • %c[ui_gray_2] low-tier field cooking equipment\n
+		%c[d_green] • %c[ui_gray_2] usable on: campfires</text>
+	</string>
+
+	<string id="st_saint_disposable_gas_cooker">
+		<text>Disposable Gas Cooker</text>
+	</string>
+	<string id="st_saint_disposable_gas_cooker_descr">
+		<text>A crude stove cooker with a pre-mounted propane tank. Slightly heavier than usual because of a crude frying pot combo attachment to make the cooker ready for use as-is. Popular in the Zone as an entry-level stove with an adjustable burner to cook meats and dishes that require a high temperature. Besides its questionable manufacturing quality, its use is limited by the small gas tank. Cheaply imported into the Zone in bulk via Chinese resellers.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_green] • %c[ui_gray_2] high-tier field cooking equipment\n
+		%c[d_green] • %c[ui_gray_2] fuel: %c[ui_gray_1]propane mixture (integrated)</text>
+	</string>
+
+	<string id="st_saint_portable_charcoal_cooker">
+		<text>Portable Charcoal Cooker</text>
+	</string>
+	<string id="st_saint_portable_charcoal_cooker_descr">
+		<text>A compact, foldable oven for cooking with charcoal or dry wood, made of stainless steel. The stove can produce temperatures sufficient to grill less contaminated meats and dishes. Includes a complementary high quality pan that perfectly fits on its frame. In the Zone, it is appreciated for its ability to use cheap imported charcoal over expensive liquid fuels. It is considered a decent upgrade to disposable cookers for everyday preparation of common game. Especially useful for deeper expeditions into the Zone where established campfires aren't available. Use of Zone-found wood highly discouraged due to the excessive release of contaminants when burning.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_green] • %c[ui_gray_2] low-tier field cooking equipment\n
+		%c[d_green] • %c[ui_gray_2] fuel: %c[ui_gray_1]charcoal</text>
+	</string>
+
+	<string id="st_saint_portable_multi_fuel_stove">
+		<text>Portable Multi-Fuel Stove</text>
+	</string>
+	<string id="st_saint_portable_multi_fuel_stove_descr">
+		<text>A powerful, robust, and reliable stove designed for universal off-the-grid cooking needs. It features a finely adjustable burner, very high heat output and can be adapted to use virtually any kind of gas and liquid fuel. This model has surpassed all other portable stoves previously used for its resilience against the harsh conditions of the Zone. Includes a complementary set of durable cookware.\n \n
+		%c[ui_gray_3]PROPERTIES:\n
+		%c[d_blue] • %c[ui_gray_2] technological item\n
+		%c[d_blue] • %c[ui_gray_2] high quality\n
+		%c[d_green] • %c[ui_gray_2] high-tier cooking equipment\n
+		%c[d_green] • %c[ui_gray_2] fuel: %c[ui_gray_1] gasoline, natural gas, kerosene</text>
+	</string>
+</string_table>
