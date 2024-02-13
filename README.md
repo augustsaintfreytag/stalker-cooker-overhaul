@@ -65,6 +65,13 @@ A powerful, robust, and reliable stove designed for universal off-the-grid cooki
 | Tags        | Technological item, high quality, high-tier field cooking equipment                                 |
 | Item        | `fieldcooker` (existing)                                                                            |
 
+## Roadmap
+
+-   Check no-fuel requirements for disposable gas cooker (consider matches)
+-   Distribute items with traders, reenable the `wood_stove` item
+-   Distribute items as loot, reenable the `wood_stove` item
+-   Update PDA entries for all items
+
 ## License
 
 This mod was created by Saint for free use by the STALKER modding community with basic attribution under the MIT license. This mod may be distributed with mod packs.
