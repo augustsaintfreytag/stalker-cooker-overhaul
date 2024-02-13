@@ -8,7 +8,7 @@
 		<text>A widely used army mess kit, consisting of a mess tin and basic metal cutlery. Can be used as a pan or small pot over an existing heat source (like a campfire) for basic dishes. It is highly compact and features a recognisable convex-concave bottom profile, concave on one side, supplied with a wire handle-loop for hanging and carrying, and is reasonably easy to clean and reuse. Sufficient to cook low quality meats that don't require high temperatures. Due to its manufacturing quality, it has limited durability.\n \n
 		%c[ui_gray_3]PROPERTIES:\n
 		%c[d_blue] • %c[ui_gray_2] technological item\n
-		%c[d_green] • %c[ui_gray_2] low-tier field cooking equipment\n
+		%c[d_green] • %c[ui_gray_2] low-tier cooking equipment\n
 		%c[d_green] • %c[ui_gray_2] usable on: campfires</text>
 	</string>
 
@@ -19,7 +19,7 @@
 		<text>A crude stove cooker with a pre-mounted propane tank. Slightly heavier than usual because of a crude frying pot combo attachment to make the cooker ready for use as-is. Popular in the Zone as an entry-level stove with an adjustable burner to cook meats and dishes that require a high temperature. Besides its questionable manufacturing quality, its use is limited by the small gas tank. Cheaply imported into the Zone in bulk via Chinese resellers.\n \n
 		%c[ui_gray_3]PROPERTIES:\n
 		%c[d_blue] • %c[ui_gray_2] technological item\n
-		%c[d_green] • %c[ui_gray_2] high-tier field cooking equipment\n
+		%c[d_green] • %c[ui_gray_2] high-tier cooking equipment\n
 		%c[d_green] • %c[ui_gray_2] fuel: %c[ui_gray_1]propane mixture (integrated)</text>
 	</string>
 
@@ -31,7 +31,7 @@
 		%c[ui_gray_3]PROPERTIES:\n
 		%c[d_blue] • %c[ui_gray_2] technological item\n
 		%c[d_blue] • %c[ui_gray_2] high quality\n
-		%c[d_green] • %c[ui_gray_2] low-tier field cooking equipment\n
+		%c[d_green] • %c[ui_gray_2] low-tier cooking equipment\n
 		%c[d_green] • %c[ui_gray_2] fuel: %c[ui_gray_1]charcoal</text>
 	</string>
 
@@ -44,6 +44,6 @@
 		%c[d_blue] • %c[ui_gray_2] technological item\n
 		%c[d_blue] • %c[ui_gray_2] high quality\n
 		%c[d_green] • %c[ui_gray_2] high-tier cooking equipment\n
-		%c[d_green] • %c[ui_gray_2] fuel: %c[ui_gray_1] gasoline, natural gas, kerosene</text>
+		%c[d_green] • %c[ui_gray_2] fuel: %c[ui_gray_1]gasoline, natural gas, kerosene</text>
 	</string>
 </string_table>
