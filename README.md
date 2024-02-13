@@ -1,5 +1,10 @@
 A re-envisioning of cooker items for STALKER Anomaly (Open X-Ray). Overhauls all existing cooker items to give each a distinct tier, a common purpose in the field, and a spot in the player's equipment progression. The mod is built using DLTX and DXML to be compatible with other mods and popular packs.
 
+> [!WARNING]
+> This mod is in active development and not yet functional.
+> Do not install this mod in your game in its current version.
+> This warning will be removed once the mod is considered playable.
+
 ## Items
 
 This mod creates the following line-up of cooker items. The gameplay principle is to provide items that are either multi-use with fuel requirements or single-use without fuel requirements. The ability to cook with a campfire is moved to a distinct item.
