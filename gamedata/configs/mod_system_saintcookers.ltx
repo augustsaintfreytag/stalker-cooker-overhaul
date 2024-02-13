@@ -1,0 +1,95 @@
+![army_bowler]
+$spawn									= "devices\repair_kit_10"
+kind									= i_kit
+visual									= dynamics\equipments\trade\ckit.ogf
+cost									= 6160
+inv_name								= st_saint_mess_kit
+inv_name_short							= st_saint_mess_kit
+description								= st_saint_mess_kit_descr
+empty_weight							= 0.8
+inv_weight								= 0.8
+icons_texture							= ui\ui_saint_cookers
+inv_grid_width							= 2
+inv_grid_height							= 1
+inv_grid_x								= 0
+inv_grid_y								= 0
+use_condition							= true
+max_uses								= 9
+remove_after_use						= false
+cooking_tool							= true
+cooking_limited							= true
+cooking_campfire						= true
+!cooking_fuel
+tier									= 1
+
+![cooking]:booster_multi
+$spawn									= "devices\repair_kit_10"
+kind									= i_kit
+visual									= dynamics\equipments\trade\ckit.ogf
+inv_name								= st_saint_disposable_gas_cooker
+inv_name_short							= st_saint_disposable_gas_cooker
+description								= st_saint_disposable_gas_cooker_descr
+empty_weight							= 1.2
+inv_weight								= 1.32
+icons_texture							= ui\ui_saint_cookers
+inv_grid_width							= 1
+inv_grid_height							= 1
+inv_grid_x								= 2
+inv_grid_y								= 0
+cost									= 1490
+use_condition							= true
+max_uses								= 3
+remove_after_use						= false
+cooking_tool							= true
+cooking_limited							= false
+cooking_campfire						= false
+!cooking_fuel
+tier									= 1
+
+![wood_stove]:booster_multi
+$spawn									= "devices\repair_kit_10"
+kind									= i_kit
+visual									= dynamics\equipments\trade\ckit.ogf
+inv_name								= st_saint_portable_charcoal_cooker
+inv_name_short							= st_saint_portable_charcoal_cooker
+description								= st_saint_portable_charcoal_cooker_descr
+empty_weight							= 1.1
+inv_weight								= 1.1
+icons_texture							= ui\ui_saint_cookers
+inv_grid_width							= 1
+inv_grid_height							= 1
+inv_grid_x								= 3
+inv_grid_y								= 0
+cost									= 8090
+use_condition							= false
+!max_uses
+remove_after_use						= false
+cooking_tool							= true
+cooking_limited							= true
+cooking_campfire						= false
+cooking_fuel							= charcoal
+tier									= 3
+
+![wood_stove]:booster_multi
+$spawn									= "devices\repair_kit_10"
+kind									= i_kit
+visual									= dynamics\equipments\trade\ckit.ogf
+inv_name								= st_saint_portable_multi_fuel_stove
+inv_name_short							= st_saint_portable_multi_fuel_stove
+description								= st_saint_portable_multi_fuel_stove_descr
+empty_weight							= 1.8
+inv_weight								= 1.8
+icons_texture							= ui\ui_saint_cookers
+inv_grid_width							= 2
+inv_grid_height							= 1
+inv_grid_x								= 4
+inv_grid_y								= 0
+cost									= 16290
+use_condition							= false
+!max_uses
+remove_after_use						= false
+cooking_tool							= true
+cooking_limited							= false
+cooking_campfire						= false
+cooking_fuel							= kerosene, explo_balon_gas, explo_jerrycan_fuel
+tier									= 4
