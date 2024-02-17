@@ -1,5 +1,7 @@
 ![Lake Crouch Orange Suit E1](https://github.com/augustsaintfreytag/stalker-cooker-overhaul/assets/7656669/2c18b6a9-c561-46e5-91c2-7cda1b098a57)
 
+# STALKER Cooker Overhaul
+
 A re-envisioning of cooker items for STALKER Anomaly (Open X-Ray). Overhauls all existing cooker items to give each a distinct tier, a common purpose in the field, and a spot in the player's equipment progression. The mod is built using DLTX and DXML to be compatible with other mods and popular packs.
 
 > [!WARNING]
