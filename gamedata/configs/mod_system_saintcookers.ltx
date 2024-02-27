@@ -1,4 +1,4 @@
-![army_bowler]
+![army_bowler]:booster_multi
 $spawn									= "devices\repair_kit_10"
 kind									= i_kit
 visual									= dynamics\equipments\trade\ckit.ogf
@@ -19,7 +19,7 @@ remove_after_use						= false
 cooking_tool							= true
 cooking_limited							= true
 cooking_campfire						= true
-!cooking_fuel
+cooking_fuel							= false
 tier									= 1
 
 ![cooking]:booster_multi
@@ -43,10 +43,10 @@ remove_after_use						= false
 cooking_tool							= true
 cooking_limited							= false
 cooking_campfire						= false
-!cooking_fuel
-tier									= 1
+cooking_fuel							= false
+tier									= 2
 
-![wood_stove]:booster_multi
+@[wood_stove]:booster_multi
 $spawn									= "devices\repair_kit_10"
 kind									= i_kit
 visual									= dynamics\equipments\trade\ckit.ogf
@@ -60,14 +60,20 @@ inv_grid_width							= 1
 inv_grid_height							= 1
 inv_grid_x								= 3
 inv_grid_y								= 0
+upgr_icon_path							= ui\actor_items\ui_actor_items_1
+upgr_icon_x								= 600
+upgr_icon_y								= 100
+upgr_icon_width							= 150
+upgr_icon_height						= 100
 cost									= 8090
 use_condition							= false
-!max_uses
+script_binding							= bind_item.bind
 remove_after_use						= false
 cooking_tool							= true
 cooking_limited							= true
 cooking_campfire						= false
 cooking_fuel							= charcoal
+cooking_use_actor_effects				= true
 tier									= 3
 
 ![fieldcooker]:booster_multi
