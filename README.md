@@ -72,6 +72,7 @@ A powerful, robust, and reliable stove designed for universal off-the-grid cooki
 ## Roadmap
 
 -   Check no-fuel requirements for disposable gas cooker (consider matches)
+-   Add highlight properties (DII or other mod) for cookers
 -   Distribute items with traders, reenable the `wood_stove` item
 -   Distribute items as loot, reenable the `wood_stove` item
 -   Update PDA entries for all items
