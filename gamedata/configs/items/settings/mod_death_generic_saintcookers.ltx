@@ -1,0 +1,227 @@
+; Item Drop Count
+
+![item_count]
+army_bowler								= 1, 1
+cooking									= 1, 1
+wood_stove								= 1, 1
+fieldcooker								= 1, 1
+
+; Item Loot (Base)
+
+![base]
+army_bowler__1							= 0.018
+army_bowler__2							= 0.008
+army_bowler__3							= 0.002
+cooking__1								= 0.01
+
+![base_experienced]:base
+army_bowler__1							= 0.05
+army_bowler__2							= 0.03
+army_bowler__3							= 0.01
+cooking__1								= 0.03
+cooking__2								= 0.005
+wood_stove								= 0
+fieldcooker								= 0
+
+; Item Loot (Factions)
+
+; Factions: bandit, stalker, army, freedom, dolg, ecolog, csky, killer, greh, isg, renegade, monolith, zombied
+; All Ranks: novice, trainee, experienced, professional, veteran, expert, master, legend
+; Used Ranks: novice, experienced, veteran, expert, master
+
+; Faction `greh` inherits all records from `monolith`
+; Faction `isg` inherits all records from `army`
+; Faction `renegade` inherits all records from `bandit`
+
+; Item Loot (Loners)
+
+![stalker_novice]:stalker
+cooking__1								= 0.01
+
+![stalker_experienced]:stalker
+cooking__1								= 0.01
+
+![stalker_veteran]:stalker,base_experienced
+cooking__1								= 0.03
+!fieldcooker
+
+![stalker_expert]:stalker,stalker_veteran
+cooking__1								= 0.03
+!fieldcooker
+
+![stalker_master]:stalker,stalker_veteran
+cooking__1								= 0.05
+!fieldcooker
+
+; Item Loot (Bandits)
+
+![bandit]:base
+
+![bandit_novice]:bandit
+
+![bandit_experienced]:bandit
+cooking__1								= 0.01
+
+![bandit_veteran]:bandit,base_experienced
+cooking__1								= 0.03
+!fieldcooker
+
+![bandit_expert]:bandit,bandit_veteran
+
+![bandit_master]:bandit,bandit_veteran
+cooking__1								= 0.05
+cooking__2								= 0.03
+!fieldcooker
+
+; Item Loot (Military)
+
+![army]:base
+army_bowler__1							= 0.05
+army_bowler__2							= 0.03
+army_bowler__3							= 0.01
+
+![army_novice]:army
+cooking__1								= 0.01
+
+![army_experienced]:army
+cooking__1								= 0.01
+
+![army_veteran]:army,base_experienced
+army_bowler__1							= 0.1
+army_bowler__2							= 0.05
+army_bowler__3							= 0.03
+army_bowler__4							= 0.01
+cooking__1								= 0.02
+
+![army_expert]:army,army_veteran
+
+![army_master]:army,army_veteran
+cooking__1								= 0.04
+cooking__2								= 0.02
+
+; Item Loot (Freedom)
+
+![freedom]:base
+cooking__1								= 0.02
+
+![freedom_novice]:freedom
+
+![freedom_experienced]:freedom
+cooking__1								= 0.03
+
+![freedom_veteran]:freedom,base_experienced
+cooking__1								= 0.05
+
+![freedom_expert]:freedom,freedom_veteran
+
+![freedom_master]:freedom,freedom_veteran
+cooking__1								= 0.07
+!fieldcooker
+
+; Item Loot (Duty)
+
+![dolg]:base
+army_bowler__1							= 0.05
+army_bowler__2							= 0.03
+army_bowler__3							= 0.01
+cooking__1								= 0.01
+!fieldcooker
+
+![dolg_novice]:dolg
+
+![dolg_experienced]:dolg
+cooking__1								= 0.02
+!fieldcooker
+
+![dolg_veteran]:dolg,base_experienced
+army_bowler__1							= 0.05
+army_bowler__2							= 0.035
+army_bowler__3							= 0.025
+army_bowler__4							= 0.02
+cooking__1								= 0.03
+
+![dolg_expert]:dolg,dolg_veteran
+
+![dolg_master]:dolg,dolg_veteran
+cooking__1								= 0.08
+cooking__2								= 0.04
+
+; Item Loot (Ecologists)
+
+![ecolog]:base
+!fieldcooker
+
+![ecolog_novice]:ecolog
+
+![ecolog_experienced]:ecolog
+
+![ecolog_veteran]:ecolog,base_experienced
+
+![ecolog_expert]:ecolog,ecolog_veteran
+
+![ecolog_master]:ecolog,ecolog_veteran
+
+; Item Loot (Clear Sky)
+
+![csky]:base
+cooking__1								= 0.01
+
+![csky_novice]:csky
+
+![csky_experienced]:csky
+cooking__1								= 0.01
+
+![csky_veteran]:csky,base_experienced
+cooking__1								= 0.03
+
+![csky_expert]:csky,csky_veteran
+
+![csky_master]:csky,csky_veteran
+cooking__1								= 0.05
+!fieldcooker
+
+; Item Loot (Mercenaries)
+
+![killer]:base
+cooking__1								= 0.02
+!fieldcooker
+
+![killer_novice]:killer
+
+![killer_experienced]:killer
+
+![killer_veteran]:killer,base_experienced
+cooking__1								= 0.05
+cooking__2								= 0.02
+!fieldcooker
+
+![killer_expert]:killer,killer_veteran
+
+![killer_master]:killer,killer_veteran
+cooking__1								= 0.05
+cooking__2								= 0.15
+!fieldcooker
+
+; Item Loot (Monolith)
+
+![monolith]:base
+cooking__1								= 0.01
+
+![monolith_novice]:monolith
+
+![monolith_experienced]:monolith
+cooking__1								= 0.03
+
+![monolith_veteran]:monolith,base_experienced
+
+![monolith_expert]:monolith,monolith_veteran
+
+![monolith_master]:monolith,monolith_veteran
+cooking__1								= 0.06
+cooking__2								= 0.03
+
+; Item Loot (Zombie)
+
+![zombied]
+army_bowler__1							= 0.02
+cooking__1								= 0.02
