@@ -34,7 +34,7 @@ A crude stove cooker with a pre-mounted propane tank. Slightly heavier than usua
 | Name        | Description                                                            |
 | ----------- | ---------------------------------------------------------------------- |
 | Progression | Early-game                                                             |
-| Usage       | Single-use (charges), integrated                                       |
+| Usage       | Limited uses, integrated fuel, uses matches                            |
 | Crafting    | Basic recipe, gas balloon, cutlery, fasteners, swiss army knife, scrap |
 | Weight      | 1.32 kg                                                                |
 | Cost        | 1490 RU                                                                |
@@ -48,7 +48,7 @@ A compact, foldable oven for cooking with charcoal or dry wood, made of stainles
 | Name        | Description                                                        |
 | ----------- | ------------------------------------------------------------------ |
 | Progression | Mid-game                                                           |
-| Usage       | Multi-use, charcoal                                                |
+| Usage       | Multi-use, uses charcoal                                           |
 | Crafting    | Advanced recipe, mess kit, cutlery, fasteners, hammer, scrap       |
 | Weight      | 1.1 kg                                                             |
 | Cost        | 8090 RU                                                            |
@@ -62,7 +62,7 @@ A powerful, robust, and reliable stove designed for universal off-the-grid cooki
 | Name        | Description                                                                                         |
 | ----------- | --------------------------------------------------------------------------------------------------- |
 | Progression | Mid-game                                                                                            |
-| Usage       | Multi-use, liquid and gas fuels                                                                     |
+| Usage       | Multi-use, uses liquid and gas fuels                                                                |
 | Crafting    | Advanced recipe, disposable gas cooker, hammer, swiss army knife, fasteners, plastic, copper, scrap |
 | Weight      | 1.8 kg                                                                                              |
 | Cost        | 16290 RU                                                                                            |
