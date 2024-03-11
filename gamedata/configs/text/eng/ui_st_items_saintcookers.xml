@@ -44,6 +44,6 @@
 		%c[d_blue] • %c[ui_gray_2] technological item\n
 		%c[d_blue] • %c[ui_gray_2] high quality\n
 		%c[d_green] • %c[ui_gray_2] high-tier cooking equipment\n
-		%c[d_green] • %c[ui_gray_2] fuel: %c[ui_gray_1]gasoline, natural gas, kerosene</text>
+		%c[d_green] • %c[ui_gray_2] fuel: %c[ui_gray_1]gasoline, kerosene, natural gas</text>
 	</string>
 </string_table>
