@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+
+	<string id="encyclopedia_items_mess_kit">
+		<text>Mess Kit</text>
+	</string>
+	<string id="encyclopedia_items_mess_kit_text">
+		<text>
+		%c[pda_white]Mess kits%c[ui_gray_1] allow its user to cook mutant meats and other dishes.
+		
+		\n \n%c[pda_green]Information%c[ui_gray_1]
+		\nA widely used army mess kit, consisting of a mess tin and basic metal cutlery. Can be used as a pan or small pot over an existing heat source (like a campfire) for basic dishes. It is highly compact and features a recognisable convex-concave bottom profile, concave on one side, supplied with a wire handle-loop for hanging and carrying, and is reasonably easy to clean and reuse. Sufficient to cook low quality meats that don't require high temperatures. Due to its manufacturing quality, it has limited durability.
+		
+		\n \n%c[pda_blue]Details%c[ui_gray_1]
+		\nMutant parts are divided into "low tier" and "high tier". Low tier meats are common and usually come from fleshes, boars, or dogs. They do not require quality equipment to prepare and can be cooked on campfires and using cheap charcoal. Hier tier meats are more rare and can come from more dangerous mutants like bloodsuckers or chimeras. They require care and consistent high heat to cook properly, using quality cookers that burn gas and liquid fuels.
+		
+		\n 
+		\n• Cooking type: %c[pda_white]Low-tier%c[ui_gray_1]
+		\n• Usable on: %c[pda_white]campfires%c[ui_gray_1]
+		\n• Number of uses: %c[pda_white]8%c[ui_gray_1]
+		</text>
+	</string>
+
+	<string id="encyclopedia_items_disposable_gas_cooker">
+		<text>Disposable Gas Cooker</text>
+	</string>
+	<string id="encyclopedia_items_disposable_gas_cooker_text">
+		<text>
+		%c[pda_white]Disposable gas cookers%c[ui_gray_1] allow its user to cook mutant meats and other dishes.
+		
+		\n \n%c[pda_green]Information%c[ui_gray_1]
+		\nA crude stove cooker with a pre-mounted propane tank. Slightly heavier than usual because of a crude frying pot combo attachment to make the cooker ready for use as-is. Popular in the Zone as an entry-level stove with an adjustable burner to cook meats and dishes that require a high temperature. Besides its questionable manufacturing quality, its use is limited by the small gas tank. Cheaply imported into the Zone in bulk via Chinese resellers.
+		
+		\n \n%c[pda_blue]Details%c[ui_gray_1]
+		\nMutant parts are divided into "low tier" and "high tier". Low tier meats are common and usually come from fleshes, boars, or dogs. They do not require quality equipment to prepare and can be cooked on campfires and using cheap charcoal. Hier tier meats are more rare and can come from more dangerous mutants like bloodsuckers or chimeras. They require care and consistent high heat to cook properly, using quality cookers that burn gas and liquid fuels.
+		
+		\n 
+		\n• Cooking type: %c[pda_white]High-tier%c[ui_gray_1]
+		\n• Fuel: %c[pda_white]propane mixture (integrated)%c[ui_gray_1]
+		\n• Number of uses: %c[pda_white]2%c[ui_gray_1]
+		</text>
+	</string>
+
+	<string id="encyclopedia_items_portable_charcoal_cooker">
+		<text>Portable Charcoal Cooker</text>
+	</string>
+	<string id="encyclopedia_items_portable_charcoal_cooker_text">
+		<text>
+		%c[pda_white]Portable charcoal cookers%c[ui_gray_1] allow its user to cook mutant meats and other dishes.
+		
+		\n \n%c[pda_green]Information%c[ui_gray_1]
+		\nA compact, foldable oven for cooking with charcoal or dry wood, made of stainless steel. The stove can produce temperatures sufficient to grill less contaminated meats and dishes. Includes a complementary high quality pan that perfectly fits on its frame. In the Zone, it is appreciated for its ability to use cheap imported charcoal over expensive liquid fuels. It is considered a decent upgrade to disposable cookers for everyday preparation of common game. Especially useful for deeper expeditions into the Zone where established campfires aren't available. Use of Zone-found wood highly discouraged due to the excessive release of contaminants when burning.
+		
+		\n \n%c[pda_blue]Details%c[ui_gray_1]
+		\nMutant parts are divided into "low tier" and "high tier". Low tier meats are common and usually come from fleshes, boars, or dogs. They do not require quality equipment to prepare and can be cooked on campfires and using cheap charcoal. Hier tier meats are more rare and can come from more dangerous mutants like bloodsuckers or chimeras. They require care and consistent high heat to cook properly, using quality cookers that burn gas and liquid fuels.
+		
+		\n 
+		\n• Cooking type: %c[pda_white]Low-tier%c[ui_gray_1]
+		\n• Fuel: %c[pda_white]charcoal%c[ui_gray_1]
+		</text>
+	</string>
+
+	<string id="encyclopedia_items_multi_fuel_stove">
+		<text>Portable Multi-Fuel Stove</text>
+	</string>
+	<string id="encyclopedia_items_multi_fuel_stove_text">
+		<text>
+		%c[pda_white]Portable multi-fuel stoves%c[ui_gray_1] allow its user to cook mutant meats and other dishes.
+		
+		\n \n%c[pda_green]Information%c[ui_gray_1]
+		\nA powerful, robust, and reliable stove designed for universal off-the-grid cooking needs. It features a finely adjustable burner, very high heat output and can be adapted to use virtually any kind of gas and liquid fuel. This model has surpassed all other portable stoves previously used for its resilience against the harsh conditions of the Zone. Includes a complementary set of durable cookware.
+		
+		\n \n%c[pda_blue]Details%c[ui_gray_1]
+		\nMutant parts are divided into "low tier" and "high tier". Low tier meats are common and usually come from fleshes, boars, or dogs. They do not require quality equipment to prepare and can be cooked on campfires and using cheap charcoal. Hier tier meats are more rare and can come from more dangerous mutants like bloodsuckers or chimeras. They require care and consistent high heat to cook properly, using quality cookers that burn gas and liquid fuels.
+		
+		\n 
+		\n• Cooking type: %c[pda_white]High-tier%c[ui_gray_1]
+		\n• Fuel: %c[pda_white]gasoline, kerosene, natural gas%c[ui_gray_1]
+		</text>
+	</string>
+
+</string_table>
