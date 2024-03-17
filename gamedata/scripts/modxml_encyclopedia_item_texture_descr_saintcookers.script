@@ -1,0 +1,47 @@
+local substitution_xml_string = [[
+	<texture id="encyclopedia_items_army_bowler_image" x="1536" y="512" width="512" height="256"/>
+	<texture id="encyclopedia_items_cooking_image" x="1024" y="512" width="512" height="256"/>
+	<texture id="encyclopedia_items_wood_stove_image" x="1024" y="1280" width="512" height="256"/>
+	<texture id="encyclopedia_items_fieldcooker_image" x="0" y="768" width="512" height="256"/>
+]]
+
+local file_name = [[ui\textures_descr\ui_pda_encyclopedia.xml]]
+
+function on_xml_read()
+	RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+		if xml_file_name ~= file_name then
+			return
+		end
+
+		-- Remove existing elements by id
+		local element_ids = {
+			"encyclopedia_items_cooking_image",
+			"encyclopedia_items_army_bowler_image",
+			"encyclopedia_items_fieldcooker_image"
+		}
+
+		for _, element_id in ipairs(element_ids) do
+			local element_object = xml_obj:query("#" .. element_id)[1]
+
+			if not element_object then
+				printf(
+					"Saint's Cooker Items DXML patcher could not find file texture element with id '%s' to be removed from encyclopedia items.",
+					element_id)
+				goto continue
+			end
+
+			xml_obj:removeElement(element_object)
+			::continue::
+		end
+
+		-- Insert new texture elements
+		local file_element_object = xml_obj:query("w > file[name='ui\\guide\\encyclopedia_items']")[1]
+
+		if not file_element_object then
+			printf("Saint's Cooker Items DXML patcher could not find file texture root element for encyclopedia items.")
+			return
+		end
+
+		file_element_object:insertFromXMLString(substitution_xml_string)
+	end)
+end
