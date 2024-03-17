@@ -1,0 +1,46 @@
+local substitution_xml_strings = {
+	[[<texture id="encyclopedia_items_mess_kit_image" x="1536" y="512" width="512" height="256"/>]],
+	[[<texture id="encyclopedia_items_disposable_gas_cooker_image" x="1024" y="512" width="512" height="256"/>]],
+	[[<texture id="encyclopedia_items_portable_charcoal_cooker_image" x="1024" y="1280" width="512" height="256"/>]],
+	[[<texture id="encyclopedia_items_multi_fuel_stove_image" x="0" y="768" width="512" height="256"/>]]
+}
+
+
+local file_name = [[ui\textures_descr\ui_pda_encyclopedia.xml]]
+
+function on_xml_read()
+	RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+		if xml_file_name ~= file_name then
+			return
+		end
+
+		-- Remove existing elements by id
+		local element_ids = {
+			"encyclopedia_items_cooking_image",
+			"encyclopedia_items_army_bowler_image",
+			"encyclopedia_items_fieldcooker_image"
+		}
+
+		for _, element_id in ipairs(element_ids) do
+			local element_object = xml_obj:query("texture[id=" .. element_id .. "]")[1]
+
+			if not element_object then
+				goto continue
+			end
+
+			xml_obj:removeElement(element_object)
+			::continue::
+		end
+
+		-- Insert new texture elements
+		local file_element_object = xml_obj:query("file[name=ui\\guide\\encyclopedia_items]")[1]
+
+		if not file_element_object then
+			return
+		end
+
+		for _, substitution_xml_string in ipairs(substitution_xml_strings) do
+			xml_obj:insertFromXMLString(substitution_xml_string, file_element_object, #file_element_object.kids)
+		end
+	end)
+end
