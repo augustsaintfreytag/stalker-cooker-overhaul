@@ -25,15 +25,9 @@ function on_xml_read()
 			local element_object = xml_obj:query("texture[id=" .. element_id .. "]")[1]
 
 			if not element_object then
-				printf(
-					"Saint's Cooker Items DXML patcher could not find file texture element with id '%s' to be removed from encyclopedia items.",
-					element_id)
 				goto continue
 			end
 
-			printf(
-				"Saint's Cooker Items DXML patcher removed file texture element with id '%s' from encyclopedia items.",
-				element_id)
 			xml_obj:removeElement(element_object)
 			::continue::
 		end
@@ -42,13 +36,10 @@ function on_xml_read()
 		local file_element_object = xml_obj:query("file[name=ui\\guide\\encyclopedia_items]")[1]
 
 		if not file_element_object then
-			printf("Saint's Cooker Items DXML patcher could not find file texture root element for encyclopedia items.")
 			return
 		end
 
 		for _, substitution_xml_string in ipairs(substitution_xml_strings) do
-			printf("Saint's Cooker Items DXML patcher inserted texture element '%s' to encyclopedia items.",
-				substitution_xml_string)
 			xml_obj:insertFromXMLString(substitution_xml_string, file_element_object, #file_element_object.kids)
 		end
 	end)
