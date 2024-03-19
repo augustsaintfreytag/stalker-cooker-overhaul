@@ -5,7 +5,7 @@
 	</string>
 	<string id="encyclopedia_items_mess_kit_text">
 		<text>
-		%c[pda_white]Mess kits%c[ui_gray_1] allow its user to cook mutant meats and other dishes.
+		The %c[pda_white]mess kit%c[ui_gray_1] allows its user to cook mutant meats and other dishes.
 		
 		\n \n%c[pda_green]Information%c[ui_gray_1]
 		\nA widely used army mess kit, consisting of a mess tin and basic metal cutlery. Can be used as a pan or small pot over an existing heat source (like a campfire) for basic dishes. It is highly compact and features a recognisable convex-concave bottom profile, concave on one side, supplied with a wire handle-loop for hanging and carrying, and is reasonably easy to clean and reuse. Sufficient to cook low quality meats that don't require high temperatures. Due to its manufacturing quality, it has limited durability.
@@ -25,7 +25,7 @@
 	</string>
 	<string id="encyclopedia_items_disposable_gas_cooker_text">
 		<text>
-		%c[pda_white]Disposable gas cookers%c[ui_gray_1] allow its user to cook mutant meats and other dishes.
+		The %c[pda_white]disposable gas cooker%c[ui_gray_1] allows its user to cook mutant meats and other dishes.
 		
 		\n \n%c[pda_green]Information%c[ui_gray_1]
 		\nA crude stove cooker with a pre-mounted propane tank. Slightly heavier than usual because of a crude frying pot combo attachment to make the cooker ready for use as-is. Popular in the Zone as an entry-level stove with an adjustable burner to cook meats and dishes that require a high temperature. Besides its questionable manufacturing quality, its use is limited by the small gas tank. Cheaply imported into the Zone in bulk via Chinese resellers.
@@ -45,7 +45,7 @@
 	</string>
 	<string id="encyclopedia_items_portable_charcoal_cooker_text">
 		<text>
-		%c[pda_white]Portable charcoal cookers%c[ui_gray_1] allow its user to cook mutant meats and other dishes.
+		The %c[pda_white]portable charcoal cooker%c[ui_gray_1] allows its user to cook mutant meats and other dishes.
 		
 		\n \n%c[pda_green]Information%c[ui_gray_1]
 		\nA compact, foldable oven for cooking with charcoal or dry wood, made of stainless steel. The stove can produce temperatures sufficient to grill less contaminated meats and dishes. Includes a complementary high quality pan that perfectly fits on its frame. In the Zone, it is appreciated for its ability to use cheap imported charcoal over expensive liquid fuels. It is considered a decent upgrade to disposable cookers for everyday preparation of common game. Especially useful for deeper expeditions into the Zone where established campfires aren't available. Use of Zone-found wood highly discouraged due to the excessive release of contaminants when burning.
@@ -64,7 +64,7 @@
 	</string>
 	<string id="encyclopedia_items_multi_fuel_stove_text">
 		<text>
-		%c[pda_white]Portable multi-fuel stoves%c[ui_gray_1] allow its user to cook mutant meats and other dishes.
+		The %c[pda_white]portable multi-fuel stove%c[ui_gray_1] allows its user to cook mutant meats and other dishes.
 		
 		\n \n%c[pda_green]Information%c[ui_gray_1]
 		\nA powerful, robust, and reliable stove designed for universal off-the-grid cooking needs. It features a finely adjustable burner, very high heat output and can be adapted to use virtually any kind of gas and liquid fuel. This model has surpassed all other portable stoves previously used for its resilience against the harsh conditions of the Zone. Includes a complementary set of durable cookware.
